@@ -7,6 +7,7 @@ import Button from '@material-ui/core/Button';
 import ig from '../../images/ig icon.png'
 import linkedin from '../../images/linkedin icon.png'
 import github from '../../images/github icon.png'
+import gmail from '../../images/gmail icon.png'
 
 const styles = theme => ({
     icon: {
@@ -26,6 +27,9 @@ function footer(props) {
         <div>
             <AppBar position="static" color="default">
                 <Toolbar className={classes.root}>
+                <Button color="primary" className={classes.button} >
+                        <img className={classes.icon} src={gmail} alt="gmail icon" />
+                    </Button>
                     <Button color="primary" className={classes.button} >
                         <img className={classes.icon} src={linkedin} alt="linkedin icon" />
                     </Button>
