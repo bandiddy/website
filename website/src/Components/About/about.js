@@ -22,7 +22,8 @@ function FullWidthGrid(props) {
     <div className={classes.root}>
       <Grid container spacing={24}>
         <Grid item xs={12}>
-          <Paper className={classes.paper}>Hello, my name is
+          <Paper className={classes.paper}>
+          <div>Hello, my name is
            <br></br>
            <br></br>
            <br></br>
@@ -30,9 +31,11 @@ function FullWidthGrid(props) {
            <br></br>
            <br></br>
            <br></br>
-           I'm a Web Developer</Paper>
+           I'm a Web Developer
+           </div>
+        </Paper>
         </Grid>
-        
+      
       </Grid>
     </div>
   );
