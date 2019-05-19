@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
+import ProjectCard from '../ProjectCard'
 
 const styles = theme => ({
   root: {
@@ -22,17 +23,12 @@ function CenteredGrid(props) {
     <div className={classes.root}>
       <Grid container spacing={24}>
         <Grid item xs={12}>
-          <Paper className={classes.paper}>Portfolio</Paper>
+          <Paper className={classes.paper}><h1>Portfolio</h1></Paper>
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
         </Grid>
-        <Grid item xs={4}>
-          <Paper className={classes.paper}>xs=3</Paper>
-        </Grid>
-        <Grid item xs={4}>
-          <Paper className={classes.paper}>xs=3</Paper>
-        </Grid>
-        <Grid item xs={4}>
-          <Paper className={classes.paper}>xs=3</Paper>
-        </Grid>
+     
         
       </Grid>
     </div>

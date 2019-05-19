@@ -27,6 +27,7 @@ function footer(props) {
         <div>
             <AppBar position="static" color="default">
                 <Toolbar className={classes.root}>
+                <h4>Holler at me</h4>
                 <Button color="primary" className={classes.button} >
                         <img className={classes.icon} src={gmail} alt="gmail icon" />
                     </Button>
