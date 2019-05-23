@@ -20,18 +20,14 @@ function CenteredGrid(props) {
   const { classes } = props;
 
   return (
-    <div className={classes.root}>
+
       <Grid container spacing={24}>
-        <Grid item xs={12}>
-          <Paper className={classes.paper}><h1>Portfolio</h1></Paper>
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-        </Grid>
-     
-        
+          <Grid item xs={12}><Paper className={classes.paper}><h1>Portfolio</h1></Paper></Grid>
+           <Grid item xs={4}><ProjectCard /></Grid>
+           <Grid item xs={4}><ProjectCard /></Grid>
+           <Grid item xs={4}><ProjectCard /></Grid>
       </Grid>
-    </div>
+    
   );
 }
 

@@ -9,6 +9,7 @@ const styles = {
     root: {
         flexGrow: 1,
         justifyContent: 'center',
+        // position: 'fixed',
     },
 };
 
