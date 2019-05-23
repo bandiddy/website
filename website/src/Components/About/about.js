@@ -22,7 +22,7 @@ function FullWidthGrid(props) {
   return (
     <div className={classes.root}>
       <Grid container spacing={24}>
-        <Grid item xs={6}>
+        <Grid item xs={6} align="center">
           {/* <Paper className={classes.paper}> */}
           <div >
            <h1>Alvin Joseph Garcia</h1>
@@ -34,7 +34,7 @@ function FullWidthGrid(props) {
            
         {/* </Paper> */}
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={6} align="center">
         {/* <Paper className={classes.paper}> */}
         <div>Enthusiastic and success driven web developer, eager to collaborate on 
            constantly changing projects with a focus on front and back end. 
