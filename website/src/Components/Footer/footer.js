@@ -4,10 +4,10 @@ import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
-import ig from '../../images/ig icon.png'
-import linkedin from '../../images/linkedin icon.png'
-import github from '../../images/github icon.png'
-import gmail from '../../images/gmail icon.png'
+import ig from '../../images/ig icon.png';
+import linkedin from '../../images/linkedin icon.png';
+import github from '../../images/github icon.png';
+import gmail from '../../images/gmail icon.png';
 import Grid from '@material-ui/core/Grid';
 
 const styles = theme => ({

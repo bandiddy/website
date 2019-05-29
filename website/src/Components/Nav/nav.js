@@ -8,8 +8,8 @@ import Button from '@material-ui/core/Button';
 const styles = {
     root: {
         flexGrow: 1,
-        justifyContent: 'center',
-        // position: 'fixed',
+        textAlign: 'right',
+        position: 'fixed',
         padding: 10,
     },
 };
