@@ -10,6 +10,7 @@ import ProjectCard3 from '../ProjectCard3'
 const styles = theme => ({
   root: {
     flexGrow: 1,
+    padding: 50,
   },
   paper: {
     padding: theme.spacing.unit * 2,
@@ -22,16 +23,16 @@ function CenteredGrid(props) {
   const { classes } = props;
 
   return (
-
+    <div className={classes.root}>
       <Grid container spacing={24} align="center">
-          <Grid item xs={12} align="center"><h1>Portfolio</h1></Grid>
-           <Grid item xs={4}><ProjectCard1 /></Grid>
-           <Grid item xs={4}><ProjectCard2 /></Grid>
-           <Grid item xs={4}><ProjectCard3 /></Grid>
-           
+        <Grid item xs={12} align="center"><h1>Portfolio</h1></Grid>
+        <Grid item xs={4}><ProjectCard1 /></Grid>
+        <Grid item xs={4}><ProjectCard2 /></Grid>
+        <Grid item xs={4}><ProjectCard3 /></Grid>
+
       </Grid>
-      
-    
+    </div>
+
   );
 }
 

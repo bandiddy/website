@@ -18,6 +18,7 @@ const styles = theme => ({
     },
     root: {
         justifyContent: 'center',
+        padding: 25, 
     }
 });
 
@@ -25,7 +26,7 @@ function footer(props) {
     const { classes } = props;
 
     return (
-        <div>
+        <div className={classes.root}>
             
             <AppBar position="static" color="default">
             <Grid item xs={12} align='center'><h4>Holler at me</h4></Grid>

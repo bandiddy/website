@@ -7,6 +7,7 @@ import Grid from '@material-ui/core/Grid';
 const styles = theme => ({
   root: {
     flexGrow: 1,
+    padding: 100,  
   },
   paper: {
     padding: theme.spacing.unit * 2,
@@ -25,7 +26,7 @@ function FullWidthGrid(props) {
         <Grid item xs={4} align="center">
           {/* <Paper className={classes.paper}> */}
           <div >
-           <h1>A little bit more about Alvin</h1>
+           <h3>A little bit more about Alvin</h3>
            <br></br>
            <br></br>
            <br></br>
@@ -37,7 +38,7 @@ function FullWidthGrid(props) {
         <Grid item xs={4} align="center">
         {/* <Paper className={classes.paper}> */}
         <div >
-           <h1>A little bit more about Alvin</h1>
+           <h3>A little bit more about Alvin</h3>
            <br></br>
            <br></br>
            <br></br>
@@ -48,7 +49,7 @@ function FullWidthGrid(props) {
         <Grid item xs={4} align="center">
         {/* <Paper className={classes.paper}> */}
         <div >
-           <h1>A little bit more about Alvin</h1>
+           <h3>A little bit more about Alvin</h3>
            <br></br>
            <br></br>
            <br></br>

@@ -10,6 +10,7 @@ const styles = {
         flexGrow: 1,
         justifyContent: 'center',
         // position: 'fixed',
+        padding: 10,
     },
 };
 
