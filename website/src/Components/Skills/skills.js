@@ -19,6 +19,28 @@ function CenteredGrid(props) {
       <Grid item xs={3} md={3}>CSS3</Grid>
       <Grid item xs={3} md={3}>React.js</Grid>
       <Grid item xs={3} md={3}>Node.js</Grid>
+
+      <Grid item xs={12} sm={12}><h4>Scripts/UI</h4></Grid>
+      <Grid item xs={3} md={3} >Javascirpt</Grid>
+      <Grid item xs={3} md={3}>Jquery</Grid>
+      <Grid item xs={3} md={3}>AJAX</Grid>
+      <Grid item xs={3} md={3}>BootStrap</Grid>
+      <Grid item xs={4} md={4} >Materialize</Grid>
+      <Grid item xs={4} md={4}>Bulma</Grid>
+      <Grid item xs={4} md={4}>Material ui</Grid>
+      
+
+      <Grid item xs={12} sm={12}><h4>Web Technologies & Frameworks</h4></Grid>
+      <Grid item xs={3} md={3} >HTML5</Grid>
+      <Grid item xs={3} md={3}>CSS3</Grid>
+      <Grid item xs={3} md={3}>React.js</Grid>
+      <Grid item xs={3} md={3}>Node.js</Grid>
+
+      <Grid item xs={12} sm={12}><h4>Web Technologies & Frameworks</h4></Grid>
+      <Grid item xs={3} md={3} >HTML5</Grid>
+      <Grid item xs={3} md={3}>CSS3</Grid>
+      <Grid item xs={3} md={3}>React.js</Grid>
+      <Grid item xs={3} md={3}>Node.js</Grid>
       {/* <h4>Scripts/UI</h4>
           <div>
             <p>Javascirpt</p>
