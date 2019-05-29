@@ -9,19 +9,22 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
+
 const styles = {
   card: {
-    maxWidth: 345,
+    maxWidth: 400,
   },
   media: {
     height: 140,
   },
 };
 
-function ProjectCard(props) {
+function ProjectCard1(props) {
   const { classes } = props;
   return (
+    
     <Card className={classes.card}>
+    
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -30,28 +33,20 @@ function ProjectCard(props) {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            Project 1
           </Typography>
           <Typography component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            Group Project 1 Description
           </Typography>
         </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
-      </CardActions>
+      </CardActionArea>   
     </Card>
+    
   );
 }
 
-ProjectCard.propTypes = {
+ProjectCard1.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(ProjectCard);
+export default withStyles(styles)(ProjectCard1);
