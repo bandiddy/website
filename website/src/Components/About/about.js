@@ -11,9 +11,7 @@ const styles = theme => ({
     padding: 200,  
   },
   paper: {
-    padding: theme.spacing.unit * 2,
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
+    padding: 100,
     
   },
 });
@@ -37,6 +35,7 @@ function FullWidthGrid(props) {
         {/* </Paper> */}
         </Grid>
         <Grid item xs={6} align="center">
+        <div className={classes.paper}>
         {/* <Paper className={classes.paper}> */}
         <div>Enthusiastic and success driven web developer, eager to collaborate on 
            constantly changing projects with a focus on front and back end. 
@@ -44,7 +43,7 @@ function FullWidthGrid(props) {
             to help benefit and empower people in a meaningful way
           </div>
         {/* </Paper> */}
-        
+        </div>
         </Grid>
       
       </Grid>
