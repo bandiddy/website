@@ -4,6 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import { blue, green } from '@material-ui/core/colors';
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 const styles = theme => ({
   root: {
@@ -20,7 +21,8 @@ function FullWidthGrid(props) {
   const { classes } = props;
 
   return (
-    <div className={classes.root} id="about">
+    <div className={classes.root} >
+    <ScrollableAnchor id="about">
       <Grid container spacing={24}>
         <Grid item xs={6} align="center">
           {/* <Paper className={classes.paper}> */}
@@ -47,6 +49,7 @@ function FullWidthGrid(props) {
         </Grid>
       
       </Grid>
+    </ScrollableAnchor>
     </div>
   );
 }
