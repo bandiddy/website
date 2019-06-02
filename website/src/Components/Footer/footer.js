@@ -9,6 +9,7 @@ import linkedin from '../../images/linkedin icon.png';
 import github from '../../images/github icon.png';
 import gmail from '../../images/gmail icon.png';
 import Grid from '@material-ui/core/Grid';
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 const styles = theme => ({
     icon: {
@@ -18,7 +19,7 @@ const styles = theme => ({
     },
     root: {
         justifyContent: 'center',
-        padding: 25, 
+        padding: 15, 
     }
 });
 
@@ -26,10 +27,10 @@ function footer(props) {
     const { classes } = props;
 
     return (
-        <div className={classes.root}>
+        <ScrollableAnchor id="contact">
             
-            <AppBar position="static" color="default">
-            <Grid item xs={12} align='center'><h4>Holler at me</h4></Grid>
+            <AppBar position="static" color="default" className={classes.root}>
+            <Grid item xs={12} align='center'><h4>Let's Develop The Future</h4></Grid>
                 <Toolbar className={classes.root}>
                 
                 <Button color="primary" className={classes.button} >
@@ -47,7 +48,7 @@ function footer(props) {
 
                 </Toolbar>
             </AppBar>
-        </div>
+        </ScrollableAnchor>
     );
 }
 

@@ -25,7 +25,7 @@ function ProjectCard2
   return (
     
     <Card className={classes.card}>
-    
+    <a href="https://travel-by-raft.herokuapp.com/ " target="_blank">
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -34,13 +34,16 @@ function ProjectCard2
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Project 2
+          RAFT Travel Planning
           </Typography>
           <Typography component="p">
-            Group Project 2 Description
+          <p> Take the stress of planning your next adventure by letting us plan for you based on user likes/dislikes. 
+            Also add to our location database for future client visits</p>
+            <p>HTML | Javascript | Bulma | Express.js | MySQL | Angular.js</p>
           </Typography>
         </CardContent>
       </CardActionArea>   
+      </a>
     </Card>
     
   );

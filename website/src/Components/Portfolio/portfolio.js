@@ -6,16 +6,12 @@ import Grid from '@material-ui/core/Grid';
 import ProjectCard1 from '../ProjectCard1'
 import ProjectCard2 from '../ProjectCard2'
 import ProjectCard3 from '../ProjectCard3'
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 const styles = theme => ({
   root: {
     flexGrow: 1,
     padding: 50,
-  },
-  paper: {
-    padding: theme.spacing.unit * 2,
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
   },
 });
 
@@ -24,6 +20,7 @@ function CenteredGrid(props) {
 
   return (
     <div className={classes.root}>
+    <ScrollableAnchor  id="portfolio">
       <Grid container spacing={24} align="center">
         <Grid item xs={12} align="center"><h1>Portfolio</h1></Grid>
         <Grid item xs={4}><ProjectCard1 /></Grid>
@@ -31,6 +28,7 @@ function CenteredGrid(props) {
         <Grid item xs={4}><ProjectCard3 /></Grid>
 
       </Grid>
+    </ScrollableAnchor>
     </div>
 
   );

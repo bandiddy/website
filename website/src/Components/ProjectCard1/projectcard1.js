@@ -22,9 +22,9 @@ const styles = {
 function ProjectCard1(props) {
   const { classes } = props;
   return (
-    
+
     <Card className={classes.card}>
-    
+<a href="https://la-crime-locator.herokuapp.com/ " target="_blank">
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -33,15 +33,17 @@ function ProjectCard1(props) {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Project 1
+            Where Da Crime At?
           </Typography>
           <Typography component="p">
-            Group Project 1 Description
+            <p> Mapping Los Angeles county crime data based on date and crime code</p>
+            <p>HTML | Javascript | Materialize | LA County Crime Database API | Firebase</p>
           </Typography>
         </CardContent>
-      </CardActionArea>   
+      </CardActionArea>
+      </a>
     </Card>
-    
+
   );
 }
 

@@ -8,6 +8,8 @@ const styles = theme => ({
   root: {
     flexGrow: 1,
     padding: 100,  
+    backgroundColor: 'white',
+    
   },
   paper: {
     padding: theme.spacing.unit * 2,
@@ -21,12 +23,16 @@ function FullWidthGrid(props) {
   const { classes } = props;
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} >
       <Grid container spacing={24}>
         <Grid item xs={4} align="center">
           {/* <Paper className={classes.paper}> */}
           <div >
            <h3>A little bit more about Alvin</h3>
+           <p> is simply dummy text of the printing and typesetting industry. 
+             Lorem Ipsum has been the industry's standard dummy text ever 
+             since the 1500s, when an unknown printer took a galley of type and 
+             scrambled it to make a type specimen book.</p>
            <br></br>
            <br></br>
            <br></br>
@@ -39,6 +45,10 @@ function FullWidthGrid(props) {
         {/* <Paper className={classes.paper}> */}
         <div >
            <h3>A little bit more about Alvin</h3>
+           <p> is simply dummy text of the printing and typesetting industry. 
+             Lorem Ipsum has been the industry's standard dummy text ever 
+             since the 1500s, when an unknown printer took a galley of type and 
+             scrambled it to make a type specimen book.</p>
            <br></br>
            <br></br>
            <br></br>
@@ -50,6 +60,10 @@ function FullWidthGrid(props) {
         {/* <Paper className={classes.paper}> */}
         <div >
            <h3>A little bit more about Alvin</h3>
+           <p> is simply dummy text of the printing and typesetting industry. 
+             Lorem Ipsum has been the industry's standard dummy text ever 
+             since the 1500s, when an unknown printer took a galley of type and 
+             scrambled it to make a type specimen book.</p>
            <br></br>
            <br></br>
            <br></br>

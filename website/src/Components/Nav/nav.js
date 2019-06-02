@@ -5,10 +5,10 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
 
+
 const styles = {
     root: {
         flexGrow: 1,
-        textAlign: 'right',
         position: 'fixed',
         padding: 10,
     },
@@ -18,19 +18,19 @@ function nav(props) {
     const { classes } = props;
 
     return (
-        <div className={classes.root}>
-            <AppBar position="static" color="default">
-                <Toolbar className={classes.root}>
-                    <Button color="primary" className={classes.button}>
+        <div >
+            <AppBar position="static" color="default" className={classes.root}>
+                <Toolbar>
+                    <Button color="default" className={classes.button} href="#about">
                         About
       </Button>
-                    <Button color="primary" className={classes.button}>
+                    <Button color="default" className={classes.button} href="#skills">
                         Skills
       </Button>
-                    <Button color="primary" className={classes.button}>
+                    <Button color="default" className={classes.button} href="#portfolio">
                         Portfolio
       </Button>
-                    <Button color="primary" className={classes.button}>
+                    <Button color="default" className={classes.button} href="#contact">
                         Contact
       </Button>
                 </Toolbar>
