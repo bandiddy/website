@@ -19,7 +19,7 @@ function nav(props) {
 
     return (
         <div className={classes.root}>
-            <AppBar position="static" color="default">
+            <AppBar position="static" color="primary">
                 <Toolbar className={classes.root}>
                     <Button color="primary" className={classes.button}>
                         About
