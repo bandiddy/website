@@ -7,6 +7,8 @@ import ProjectCard1 from '../ProjectCard1'
 import ProjectCard2 from '../ProjectCard2'
 import ProjectCard3 from '../ProjectCard3'
 import ScrollableAnchor from 'react-scrollable-anchor'
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const styles = theme => ({
   root: {
@@ -19,6 +21,8 @@ function CenteredGrid(props) {
   const { classes } = props;
 
   return (
+    <ScrollAnimation animateIn='fadeIn'
+              animateOut='fadeOut'>
     <div className={classes.root}>
     <ScrollableAnchor  id="portfolio">
       <Grid container spacing={24} align="center">
@@ -30,7 +34,7 @@ function CenteredGrid(props) {
       </Grid>
     </ScrollableAnchor>
     </div>
-
+    </ScrollAnimation>
   );
 }
 

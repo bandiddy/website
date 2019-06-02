@@ -7,6 +7,8 @@ import { blue, green } from '@material-ui/core/colors';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import alvin from '../../images/alvin.jpg';
 import { Parallax, Background } from 'react-parallax';
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const styles = theme => ({
   root: {
@@ -32,7 +34,7 @@ function FullWidthGrid(props) {
             blur={ 5 }
             bgImage={require('../../images/alvin.jpg')}
             bgImageAlt="alvin"
-            strength={400}
+            strength={600}
         >
     <ScrollableAnchor id="about">
       <Grid container spacing={24}>
@@ -49,17 +51,21 @@ function FullWidthGrid(props) {
         {/* </Paper> */}
         </Grid>
         <Grid item xs={6} align="center">
-        <div className={classes.paper}>
+        
         {/* <Paper className={classes.paper}> */}
+        <ScrollAnimation animateIn='fadeIn'
+              animateOut='fadeOut'>
+                <div className={classes.paper}>
         <h1>Alvin Joseph Garcia</h1>
         <div>Enthusiastic and success driven web developer, eager to collaborate on 
            constantly changing projects with a focus on front and back end. 
             With a passion to learn and grow with ever changing technology, I am committed to creating applications 
             to help benefit and empower people in a meaningful way.
           </div>
-          <h2>I'm a Web Developer!</h2>
+          <h2>I'm a Web Developer!</h2></div>
+          </ScrollAnimation>
         {/* </Paper> */}
-        </div>
+        
         </Grid>
       
       </Grid>
