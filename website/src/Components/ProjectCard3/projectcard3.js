@@ -24,23 +24,27 @@ function ProjectCard3
   const { classes } = props;
   return (
     
-    <Card className={classes.card}>
-    
+    <Card className={classes.card} >
+      <a href="http://the-kog.herokuapp.com/" target="_blank">
       <CardActionArea>
         <CardMedia
+        
           className={classes.media}
           image="/static/images/cards/contemplative-reptile.jpg"
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Project 3
+          King Of Games Virtual Arcade
           </Typography>
           <Typography component="p">
-            Group Project 3 Description
+          <p> Score high on our array games (Snake, Breakout, Racer, Tower Defense) 
+            to be crowned the king of games in our virtual arcade</p>
+            <p>React.js | Node.js | Express.js | MySQL | Material UI</p>
           </Typography>
         </CardContent>
       </CardActionArea>   
+      </a>
     </Card>
     
   );

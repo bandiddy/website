@@ -3,11 +3,12 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import ig from '../../images/ig icon.png';
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    padding: 100,  
+    paddingBottom: 100,  
   },
   paper: {
     padding: theme.spacing.unit * 2,
@@ -26,7 +27,9 @@ function CenteredGrid(props) {
   const { classes } = props;
 
   return (
-    <div className={classes.root}>
+
+    <div className={classes.root} >
+    <ScrollableAnchor  id="skills">
     <Grid container spacing={16} align="center">
       <Grid item xs={12}><h1>Skills</h1></Grid>
       <Grid item xs={12} sm={12}><h4>Web Technologies & Frameworks</h4></Grid>
@@ -55,6 +58,7 @@ function CenteredGrid(props) {
       <Grid item xs={4} md={4}>Jest<br></br><img className={classes.icon} src={ig} alt="ig icon" /></Grid>
       
     </Grid>
+</ScrollableAnchor>
 </div>
   );
 }
