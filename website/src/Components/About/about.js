@@ -14,6 +14,7 @@ const styles = theme => ({
   root: {
     flexGrow: 1,
     padding: 100,
+    color: 'white'
     
   },
   paper: {

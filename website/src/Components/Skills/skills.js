@@ -10,7 +10,9 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    paddingBottom: 100,
+    padding: 50,
+    backgroundColor: '#37474f',
+    color: 'white'
   },
   paper: {
     padding: theme.spacing.unit * 2,

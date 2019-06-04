@@ -11,7 +11,13 @@ const styles = {
         flexGrow: 1,
         position: 'fixed',
         padding: 10,
+        backgroundColor: '#37474f'
     },
+    button:{
+        color: 'white',
+        fontSize: 15
+
+    }
 };
 
 function nav(props) {
@@ -21,7 +27,8 @@ function nav(props) {
         <div >
             <AppBar position="static" color="default" className={classes.root}>
                 <Toolbar>
-                    <Button color="default" className={classes.button} href="#about">
+                
+                    <Button color="#4db6ac" className={classes.button} href="#about">
                         About
       </Button>
                     <Button color="default" className={classes.button} href="#skills">

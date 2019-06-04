@@ -9,9 +9,10 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    paddingTop: 150,  
+    paddingTop: 100,  
     backgroundColor: 'white',
-    
+    paddingRight: 50,
+    paddingLeft: 50,
   },
   paper: {
     padding: theme.spacing.unit * 2,
@@ -32,7 +33,7 @@ function FullWidthGrid(props) {
         <Grid item xs={4} align="center">
           {/* <Paper className={classes.paper}> */}
           <div >
-           <h3>A little bit more about Alvin</h3>
+           <h3>Travel, Explore & Learn!</h3>
            <p> is simply dummy text of the printing and typesetting industry. 
              Lorem Ipsum has been the industry's standard dummy text ever 
              since the 1500s, when an unknown printer took a galley of type and 
@@ -48,7 +49,7 @@ function FullWidthGrid(props) {
         <Grid item xs={4} align="center">
         {/* <Paper className={classes.paper}> */}
         <div >
-           <h3>A little bit more about Alvin</h3>
+           <h3>I think I can DANCE</h3>
            <p> is simply dummy text of the printing and typesetting industry. 
              Lorem Ipsum has been the industry's standard dummy text ever 
              since the 1500s, when an unknown printer took a galley of type and 
@@ -63,7 +64,7 @@ function FullWidthGrid(props) {
         <Grid item xs={4} align="center">
         {/* <Paper className={classes.paper}> */}
         <div >
-           <h3>A little bit more about Alvin</h3>
+           <h3>wine is Cool!</h3>
            <p> is simply dummy text of the printing and typesetting industry. 
              Lorem Ipsum has been the industry's standard dummy text ever 
              since the 1500s, when an unknown printer took a galley of type and 
