@@ -1,8 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import './index.css';
 import App from './App';
+import Resume from './Resume'
 
+const routing = (
+    <Router>
+      <div>
+        <Route exact path="/" component={App} />
+        <Route path="/resume" component={Resume} />
+      </div>
+    </Router>
+  )
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
