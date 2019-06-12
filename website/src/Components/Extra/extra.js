@@ -34,10 +34,11 @@ function FullWidthGrid(props) {
           {/* <Paper className={classes.paper}> */}
           <div >
            <h3>Travel, Explore & Learn!</h3>
-           <p> is simply dummy text of the printing and typesetting industry. 
-             Lorem Ipsum has been the industry's standard dummy text ever 
-             since the 1500s, when an unknown printer took a galley of type and 
-             scrambled it to make a type specimen book.</p>
+           <p> I will forever love learning and there is so much in this world 
+             to gain knowledge from. I will always opt to travel, explore, and 
+             adventure to constantly learn from new cultures, lifestyles, people, etc 
+             to enhance my outlook on life.
+           </p>
            <br></br>
            <br></br>
            <br></br>
@@ -49,11 +50,12 @@ function FullWidthGrid(props) {
         <Grid item xs={4} align="center">
         {/* <Paper className={classes.paper}> */}
         <div >
-           <h3>I think I can DANCE</h3>
-           <p> is simply dummy text of the printing and typesetting industry. 
-             Lorem Ipsum has been the industry's standard dummy text ever 
-             since the 1500s, when an unknown printer took a galley of type and 
-             scrambled it to make a type specimen book.</p>
+           <h3>I Think I Have Rythm</h3>
+           <p> I've been performing in music and dance since I was young. 
+             From recitals to marching band to World of Dance, 
+             performing through the arts has been a part of my life. All so
+             I wont be that guy at the wedding without rythm.
+           </p>
            <br></br>
            <br></br>
            <br></br>
@@ -64,11 +66,12 @@ function FullWidthGrid(props) {
         <Grid item xs={4} align="center">
         {/* <Paper className={classes.paper}> */}
         <div >
-           <h3>wine is Cool!</h3>
-           <p> is simply dummy text of the printing and typesetting industry. 
-             Lorem Ipsum has been the industry's standard dummy text ever 
-             since the 1500s, when an unknown printer took a galley of type and 
-             scrambled it to make a type specimen book.</p>
+           <h3>Wine is Cool!</h3>
+           <p>I've learned to appreciate wine for
+             more than the drink. While in fine dining, from the vine to the glass,
+             the process is an amazing journey to share. Just like the earth, wine is constantly
+             changing, growing, and always worth learning about. </p>
+             <p> CMS level 1 & WSET level 2 </p>
            <br></br>
            <br></br>
            <br></br>

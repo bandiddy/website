@@ -9,8 +9,14 @@ import alvin from '../../images/alvin.jpg';
 import { Parallax, Background } from 'react-parallax';
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
+import { makeStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
+
 
 const styles = theme => ({
+  
   root: {
     flexGrow: 1,
     padding: 100,
@@ -19,6 +25,9 @@ const styles = theme => ({
   },
   paper: {
     padding: 100,
+  },
+  button: {
+   color: 'white',
   },
 });
 
@@ -63,7 +72,10 @@ function FullWidthGrid(props) {
             With a passion to learn and grow with ever changing technology, I am committed to creating applications 
             to help benefit and empower people in a meaningful way.
           </div>
-          <h2>I'm a Web Developer!</h2></div>
+          <h2>I'm a Web Developer!</h2>
+          <Button variant="outlined" color="white" className={classes.button}>
+        Resume
+      </Button></div>
           </ScrollAnimation>
         {/* </Paper> */}
         
@@ -83,5 +95,6 @@ FullWidthGrid.propTypes = {
   classes: PropTypes.object.isRequired,
   
 };
+
 
 export default withStyles(styles)(FullWidthGrid);
