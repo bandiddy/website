@@ -29,7 +29,7 @@ function ProjectCard2
       <CardActionArea>
         <CardMedia
           className={classes.media}
-            image="../../images/raft.jpg"
+            image={require("../../images/raft.jpg")}
           title="Raft"
         />
         <CardContent>

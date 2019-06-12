@@ -14,6 +14,9 @@ function Index() {
 
 function App() {
   return (
+    <Router>
+      
+      
     <React.Fragment>
       <Nav />
       <About />
@@ -22,6 +25,8 @@ function App() {
       <Portfolio />
       <Footer />
     </React.Fragment>
+ 
+    </Router>
   );
 }
 

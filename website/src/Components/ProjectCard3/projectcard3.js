@@ -30,7 +30,7 @@ function ProjectCard3
         <CardMedia
         
           className={classes.media}
-            image="../../images/kog.jpg"
+            image={require("../../images/kog.jpg")}
           title="King of Games Arcade"
         />
         <CardContent>

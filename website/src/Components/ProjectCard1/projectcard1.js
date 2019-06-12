@@ -30,8 +30,7 @@ function ProjectCard1(props) {
         <CardActionArea>
           <CardMedia
             className={classes.media}
-            bgImage={require('../../images/wdca.jpg')}
-            image="../../images/wdca.jpg"
+            image={require("../../images/wdca.jpg")}
             title="Where Da Crime At?"
           />
           <CardContent>

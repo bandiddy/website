@@ -9,15 +9,9 @@ import alvin from '../../images/alvin.jpg';
 import { Parallax, Background } from 'react-parallax';
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
-<<<<<<< HEAD
-import Button from '@material-ui/core/Button';
-=======
-import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-
->>>>>>> bfc0d280dfb42603571acaf4a483325733167105
 
 const styles = theme => ({
   
@@ -31,16 +25,10 @@ const styles = theme => ({
     color: 'white',
     padding: 100,
   },
-<<<<<<< HEAD
   size: {
     color: 'white',
     padding: 15,
   }
-=======
-  button: {
-   color: 'white',
-  },
->>>>>>> bfc0d280dfb42603571acaf4a483325733167105
 });
 
 function FullWidthGrid(props) {
@@ -85,13 +73,7 @@ function FullWidthGrid(props) {
             to help benefit and empower people in a meaningful way.
           </div>
           <h2>I'm a Web Developer!</h2>
-<<<<<<< HEAD
-          <Button variant="outlined"  href="#outlined-buttons" className={classes.size} >Resume</Button></div>
-=======
-          <Button variant="outlined" color="white" className={classes.button}>
-        Resume
-      </Button></div>
->>>>>>> bfc0d280dfb42603571acaf4a483325733167105
+          <Button variant="outlined"  href="#outlined-buttons" className={classes.size}>Resume</Button></div>
           </ScrollAnimation>
         {/* </Paper> */}
         
