@@ -39,16 +39,17 @@ function footer(props) {
                 <Toolbar className={classes.root}>
                 
                 <Button color="primary" className={classes.button} >
-                        <img className={classes.icon} src={gmail} alt="gmail icon" />
+                <a href="mailto:alvinjoseph.garcia@gmail.com?Subject=Hello%20again" target="_top"><img className={classes.icon} src={gmail} alt="gmail icon" /></a>
                     </Button>
-                    <Button color="primary" className={classes.button} >
-                        <img className={classes.icon} src={linkedin} alt="linkedin icon" />
+                    <Button color="primary" className={classes.button} ><a href="https://www.linkedin.com/in/alvingarcia/" target="_blank">
+                      <img className={classes.icon} src={linkedin} alt="linkedin icon" /></a>
                     </Button>
-                    <Button color="primary" className={classes.button}>
-                        <img className={classes.icon} src={ig} alt="ig icon" />
+                    
+                    <Button color="primary" className={classes.button}><a href="https://www.instagram.com/_josephalvin/" target="_blank">
+                        <img className={classes.icon} src={ig} alt="ig icon" /></a>
                     </Button>
-                    <Button color="primary" className={classes.button}>
-                        <img className={classes.icon} src={github} alt="github icon" />
+                    <Button color="primary" className={classes.button}><a href="https://github.com/bandiddy" target="_blank">
+                        <img className={classes.icon} src={github} alt="github icon" /></a>
                     </Button>
 
                 </Toolbar>

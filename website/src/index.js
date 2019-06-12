@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import './index.css';
 import App from './App';
-import Resume from './Resume'
+// import Resume from '.pages/Resume'
 
 const routing = (
     <Router>
       <div>
         <Route exact path="/" component={App} />
-        <Route path="/resume" component={Resume} />
+        {/* <Route path="/resume" component={Resume} /> */}
       </div>
     </Router>
   )

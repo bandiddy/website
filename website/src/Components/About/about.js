@@ -73,7 +73,10 @@ function FullWidthGrid(props) {
             to help benefit and empower people in a meaningful way.
           </div>
           <h2>I'm a Web Developer!</h2>
-          <Button variant="outlined"  href="#outlined-buttons" className={classes.size}>Resume</Button></div>
+          
+          <Button variant="outlined"  href="#outlined-buttons" className={classes.size}>
+         Resume</Button>
+          </div>
           </ScrollAnimation>
         {/* </Paper> */}
         
