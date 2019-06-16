@@ -4,10 +4,10 @@ import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
-import ig from '../../images/ig icon.png';
-import linkedin from '../../images/linkedin icon.png';
-import github from '../../images/github icon.png';
-import gmail from '../../images/gmail icon.png';
+import instagram from '../../images/instagram.png';
+import linkedin from '../../images/linkedin.png';
+import github from '../../images/github.png';
+import email from '../../images/email.png';
 import Grid from '@material-ui/core/Grid';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import teal from '@material-ui/core/colors/teal';
@@ -39,14 +39,14 @@ function footer(props) {
                 <Toolbar className={classes.root}>
                 
                 <Button color="primary" className={classes.button} >
-                <a href="mailto:alvinjoseph.garcia@gmail.com?Subject=Hello%20again" target="_top"><img className={classes.icon} src={gmail} alt="gmail icon" /></a>
+                <a href="mailto:alvinjoseph.garcia@gmail.com?Subject=Hello%20again" target="_top"><img className={classes.icon} src={email} alt="gmail icon" /></a>
                     </Button>
                     <Button color="primary" className={classes.button} ><a href="https://www.linkedin.com/in/alvingarcia/" target="_blank">
                       <img className={classes.icon} src={linkedin} alt="linkedin icon" /></a>
                     </Button>
                     
                     <Button color="primary" className={classes.button}><a href="https://www.instagram.com/_josephalvin/" target="_blank">
-                        <img className={classes.icon} src={ig} alt="ig icon" /></a>
+                        <img className={classes.icon} src={instagram} alt="ig icon" /></a>
                     </Button>
                     <Button color="primary" className={classes.button}><a href="https://github.com/bandiddy" target="_blank">
                         <img className={classes.icon} src={github} alt="github icon" /></a>
