@@ -60,11 +60,11 @@ function FullWidthGrid(props) {
             {/* <Paper className={classes.paper}> */}
             <div >
               <img className={classes.icon} src={dance} alt="dance" />
-              <h3>I Think I Have Rythm</h3>
+              <h3>I Think I Have Rhythm</h3>
               <p> I've been performing in music and dance since I was young.
                 From recitals to marching band to World of Dance,
                 performing through the arts has been a part of my life. All so
-                I wont be that guy at the wedding without rythm.
+                I wont be that guy at the wedding without rhythm.
            </p>
               <br></br>
               <br></br>
