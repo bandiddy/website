@@ -19,7 +19,10 @@ const styles = theme => ({
   root: {
     flexGrow: 1,
     padding: 100,
-    color: 'white'
+    color: 'white',
+    width: '100%',
+    height: '100%'
+  
     
   },
   paper: {
