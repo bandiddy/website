@@ -25,11 +25,11 @@ function CenteredGrid(props) {
               animateOut='fadeOut'>
     <div className={classes.root}>
     <ScrollableAnchor  id="portfolio">
-      <Grid container spacing={24} align="center">
+      <Grid container spacing={3} align="center">
         <Grid item xs={12} align="center"><h1>Portfolio</h1></Grid>
-        <Grid item xs={4}><ProjectCard1 /></Grid>
-        <Grid item xs={4}><ProjectCard2 /></Grid>
-        <Grid item xs={4}><ProjectCard3 /></Grid>
+        <Grid item xs={12} sm={4}><ProjectCard1 /></Grid>
+        <Grid item xs={12} sm={4}><ProjectCard2 /></Grid>
+        <Grid item xs={12} sm={4}><ProjectCard3 /></Grid>
 
       </Grid>
     </ScrollableAnchor>

@@ -48,8 +48,8 @@ function FullWidthGrid(props) {
             strength={600}
         >
     <ScrollableAnchor id="about">
-      <Grid container spacing={24}>
-        <Grid item xs={6} align="center">
+      <Grid container spacing={2}>
+        <Grid item  sm={6} align="center">
           {/* <Paper className={classes.paper}> */}
           {/* <div >
            <h1>Alvin Joseph Garcia</h1>
@@ -61,7 +61,7 @@ function FullWidthGrid(props) {
            
         {/* </Paper> */}
         </Grid>
-        <Grid item xs={6} align="center">
+        <Grid item xs={30} sm={6} align="center">
         
         {/* <Paper className={classes.paper}> */}
         <ScrollAnimation animateIn='fadeIn'

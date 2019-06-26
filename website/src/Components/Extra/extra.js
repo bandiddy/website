@@ -37,8 +37,8 @@ function FullWidthGrid(props) {
     <ScrollAnimation animateIn='fadeIn'
       animateOut='fadeOut'>
       <div className={classes.root} >
-        <Grid container spacing={24}>
-          <Grid item xs={4} align="center">
+        <Grid container spacing={3}>
+          <Grid item xs={12} sm={4} align="center">
             {/* <Paper className={classes.paper}> */}
             <div >
               <img className={classes.icon} src={travel} alt="travel" />
@@ -56,7 +56,7 @@ function FullWidthGrid(props) {
 
             {/* </Paper> */}
           </Grid>
-          <Grid item xs={4} align="center">
+          <Grid item xs={12} sm={4} align="center">
             {/* <Paper className={classes.paper}> */}
             <div >
               <img className={classes.icon} src={dance} alt="dance" />
@@ -73,7 +73,7 @@ function FullWidthGrid(props) {
             </div>
 
           </Grid>
-          <Grid item xs={4} align="center">
+          <Grid item xs={12} sm={4} align="center">
             {/* <Paper className={classes.paper}> */}
             <div >
               <img className={classes.icon} src={wine} alt="wine" />
